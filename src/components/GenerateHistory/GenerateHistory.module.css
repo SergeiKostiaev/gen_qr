@@ -1,0 +1,18 @@
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+
+}
+
+.historyItem {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.text {
+    margin-right: 15px; /* Отступ между текстом и QR-кодом */
+    font-size: 16px;
+}

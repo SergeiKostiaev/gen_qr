@@ -1,0 +1,43 @@
+
+.footer {
+    display: block;
+    width: 100%;
+    background: var(--main-bg);
+    padding: var(--footer-pad);
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.container__result {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrap a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.copyright {
+    bottom: -40px;
+    position: absolute;
+    font-size: 11px;
+}
+
+.footer_contact a:hover{
+    transition: 0.3s;
+    color: rebeccapurple;
+}

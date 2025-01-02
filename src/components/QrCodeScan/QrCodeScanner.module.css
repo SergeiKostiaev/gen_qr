@@ -1,0 +1,12 @@
+.scan__box {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 650px;
+}
+
+.scan__box p {
+    margin-bottom: 20px;
+}
