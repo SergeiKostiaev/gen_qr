@@ -5,7 +5,7 @@ import classNames from 'classnames';
 export const Footer = () => {
     return (
         <footer className={style.footer}>
-            <div className={classNames(style.container, style.header__wrap)}>
+            <div className={classNames(style.container, style.footer__wrap)}>
                 <Link to="/">
                     <div className={style.title}>
                         <h1>QRCodeGen</h1>
@@ -15,7 +15,7 @@ export const Footer = () => {
                 </Link>
                 <div className={style.footer_contact}>
                     <h3>Контакты</h3>
-                    E-mail: <a href="mailto:devprime.agency@yandex.ru">devprime.agency@yandex.ru</a>
+                    <p>E-mail: <a href="mailto:devprime.agency@yandex.ru">devprime.agency@yandex.ru</a></p>
                 </div>
                 <p className={style.copyright}>2024, QrCodeGen</p>
             </div>

@@ -75,7 +75,7 @@ export const QrCodeGeneration = () => {
             <div className={style.container__result}>
                 <p>ver: 1.0.0</p>
                 <input className={style.input} type="text" value={value} onChange={onChangeHandler} placeholder="Введите ваш текст"/>
-                <button className={style.container_result__btn} type="button" onClick={ClickHandler}>Сгенерировать QR</button>
+                <button className={style.container_result__btn} type="button" onClick={ClickHandler} >Сгенерировать QR</button>
                 <div className={style.qr} ref={qrRef}>
                     {result !== '' && (
                         <QRCodeSVG value={result} size={200}/>  // Если True то рисуй компонент

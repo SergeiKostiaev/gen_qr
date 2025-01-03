@@ -41,3 +41,34 @@
     transition: 0.3s;
     color: rebeccapurple;
 }
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrap a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+@media screen and (max-width: 800px) {
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .title p{
+        font-size: 13px;
+    }
+    .title {
+        margin-bottom: 25px;
+    }
+    .footer_contact h3{
+        font-size: 16px;
+    }
+    .footer_contact p{
+        font-size: 14px;
+    }
+}
